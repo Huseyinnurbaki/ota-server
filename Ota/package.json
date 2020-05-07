@@ -1,0 +1,16 @@
+{
+  "name": "ota",
+  "version": "1.0.0",
+  "description": "ota-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node node_modules/electrode-ota-server",
+    "development": "NODE_ENV=development node node_modules/electrode-ota-server"
+  },
+  "author": "huseyin nurbaki",
+  "license": "ISC",
+  "dependencies": {
+    "electrode-ota-server": "^4.6.11",
+    "electrode-ota-server-dao-mariadb": "^4.6.11"
+  }
+}
