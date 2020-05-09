@@ -1,16 +1,18 @@
-# Use root/example as user/password credentials
-version: '3.1'
+# not used
 
-services:
+# # Use root/example as user/password credentials
+# version: '3.1'
 
-  db:
-    image: mariadb
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: example
+# services:
 
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 3306:3306
+#   db:
+#     image: mariadb
+#     restart: always
+#     environment:
+#       MYSQL_ROOT_PASSWORD: example
+
+#   adminer:
+#     image: adminer
+#     restart: always
+#     ports:
+#       - 3306:3306

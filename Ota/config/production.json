@@ -10,18 +10,18 @@
             "poolConfigs": [
                     {
                 "host": "127.0.0.1",
-                "port": 3306,
+                "port": 33070,
                 "dialect": "mysql",
                 "database": "electrode_ota",
-                "user": "root",
-                "password": "*****"
+                "user": "ota",
+                "password": "ota"
                     }
                 ]
             }
         },
         "electrode-ota-server-fileservice-upload": {
             "options": { 
-                "downloadUrl": "http://localhost:9904/storagev2/"
+                "downloadUrl": "http://localhost:9001/storagev2/"
             }
         },
         "electrode-ota-server-auth": {
@@ -29,16 +29,16 @@
                 "strategy": {
                     "github-oauth": {
                         "options": {
-                            "password": "example",
+                            "password": "exampleexampleexampleexampleexampleexample",
                             "isSecure": false,
-                            "location": "http://localhost:9904",
-                            "clientId": "75304960b7e1d33915fc",
-                            "clientSecret": "ab66a4174efa38cf94236165558201017ae8c8a7"
+                            "location": "http://localhost:9001",
+                            "clientId": "cid",
+                            "clientSecret": "cis"
                         }
                     },
                     "session": {
                         "options": {
-                            "password": "example",
+                            "password": "exampleexampleexampleexampleexampleexample",
                             "isSecure": false
                         }
                     }
