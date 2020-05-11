@@ -1,26 +1,26 @@
 {
     "plugins": {
         "electrode-ota-server-dao-cassandra": {
-        "enable": false
+            "enable": false
         },
         "electrode-ota-server-dao-plugin": {
-        "module": "electrode-ota-server-dao-mariadb",
-        "priority": 4,
-        "options": {
-            "poolConfigs": [
+            "module": "electrode-ota-server-dao-mariadb",
+            "priority": 4,
+            "options": {
+                "poolConfigs": [
                     {
-                "host": "127.0.0.1",
-                "port": 33070,
-                "dialect": "mysql",
-                "database": "electrode_ota",
-                "user": "ota",
-                "password": "ota"
+                        "host": "127.0.0.1",
+                        "port": 33070,
+                        "dialect": "mysql",
+                        "database": "electrode_ota",
+                        "user": "ota",
+                        "password": "ota"
                     }
                 ]
             }
         },
         "electrode-ota-server-fileservice-upload": {
-            "options": { 
+            "options": {
                 "downloadUrl": "http://localhost:9001/storagev2/"
             }
         },
@@ -32,8 +32,8 @@
                             "password": "exampleexampleexampleexampleexampleexample",
                             "isSecure": false,
                             "location": "http://localhost:9001",
-                            "clientId": "cid",
-                            "clientSecret": "cis"
+                            "clientId": "asdasdad",
+                            "clientSecret": "asdasdasdas"
                         }
                     },
                     "session": {
