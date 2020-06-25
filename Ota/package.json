@@ -10,7 +10,7 @@
   "author": "huseyin nurbaki",
   "license": "ISC",
   "dependencies": {
-    "electrode-ota-server": "^4.6.11",
-    "electrode-ota-server-dao-mariadb": "^4.6.11"
+    "electrode-ota-server": "^4.7.1",
+    "electrode-ota-server-dao-mariadb": "^4.7.1"
   }
 }
